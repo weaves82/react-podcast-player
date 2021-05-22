@@ -1,0 +1,44 @@
+{
+  "people": [
+    {
+      "favourites": [
+        {
+          "title": "The Kid Mero Talks 'What It Means To Be Latino'",
+          "src": "https://play.podtrac.com/npr-510312/edge1.pod.npr.org/anon.npr-mp3/npr/codeswitch/2021/05/20210511_codeswitch_mero_interview_full_ljd_204pm_et_tues.mp3?orgId=1&d=1960&p=510312&story=991629761&t=podcast&e=991629761&size=31372897&ft=pod&f=510312&awCollectionId=510312&awEpisodeId=991629761",
+          "isLiked": false
+        },
+        {
+          "title": "Live From Philly*: A Code Switch Jawn",
+          "src": "https://play.podtrac.com/npr-510312/edge1.pod.npr.org/anon.npr-mp3/npr/codeswitch/2021/04/20210427_codeswitch_philly_live_show_ljd_952pm_for_kumari.mp3?orgId=1&d=1673&p=510312&story=991352680&t=podcast&e=991352680&size=26778689&ft=pod&f=510312&awCollectionId=510312&awEpisodeId=991352680",
+          "isLiked": false
+        },
+        {
+          "title": "Lonnie Bunch And The 'Museum Of No'",
+          "src": "https://play.podtrac.com/npr-510312/edge1.pod.npr.org/anon.npr-mp3/npr/codeswitch/2021/03/20210316_codeswitch_lonnie_bunch_full_mix_ljd_1100pm_et.mp3?orgId=1&d=1969&p=510312&story=977947084&t=podcast&e=977947084&size=31506226&ft=pod&f=510312&awCollectionId=510312&awEpisodeId=977947084",
+          "isLiked": false
+        },
+        {
+          "title": "Spit A Verse, Drop Some Knowledge",
+          "src": "https://play.podtrac.com/npr-510312/edge1.pod.npr.org/anon.npr-mp3/npr/codeswitch/2021/04/20210406_codeswitch_ljd_mix_poetry_1036pm_et.mp3?orgId=1&d=1469&p=510312&story=984762691&t=podcast&e=984762691&size=23506487&ft=pod&f=510312&awCollectionId=510312&awEpisodeId=984762691",
+          "isLiked": true
+        },
+        {
+          "title": "Do The Golden Arches Bend Toward Justice?",
+          "src": "https://play.podtrac.com/npr-510312/edge1.pod.npr.org/anon.npr-mp3/npr/codeswitch/2021/04/20210414_codeswitch_golden_arches_mix_120am_et_ljd.mp3?orgId=1&d=1863&p=510312&story=986426485&t=podcast&e=986426485&size=29812655&ft=pod&f=510312&awCollectionId=510312&awEpisodeId=986426485",
+          "isLiked": true
+        },
+        {
+          "title": "The Sum Of Our Parts",
+          "src": "https://play.podtrac.com/npr-510312/edge1.pod.npr.org/anon.npr-mp3/npr/codeswitch/2021/05/20210518_codeswitch_poc_rerun_518_ljd_516pm_et.mp3?orgId=1&d=2206&p=510312&story=998037773&t=podcast&e=998037773&size=35305057&ft=pod&f=510312&awCollectionId=510312&awEpisodeId=998037773",
+          "isLiked": false
+        },
+        {
+          "title": "Show Me The Money",
+          "src": "https://play.podtrac.com/npr-510312/edge1.pod.npr.org/anon.npr-mp3/npr/codeswitch/2021/05/20210504_codeswitch_cs_invisibilia_full_mix_st___ljd_703pm_et.mp3?orgId=1&d=2133&p=510312&story=993643759&t=podcast&e=993643759&size=34138951&ft=pod&f=510312&awCollectionId=510312&awEpisodeId=993643759",
+          "isLiked": false
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
