@@ -11,7 +11,7 @@ import {
   Favourite,
   FavouritesContextInterface,
 } from "../models/favourites.model";
-import { Podcasts, Podcast } from "../models/podcasts.model";
+import { Podcasts } from "../models/podcasts.model";
 
 const Favourites: React.FC = () => {
   const { favourites, dispatch } =
