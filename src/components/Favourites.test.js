@@ -8,7 +8,7 @@ import * as fS from '../services/favouriteService';
 
 jest.mock('../services/favouriteService');
 
-function renderUserGreeter(favourites, dispatch, setPodcast) {
+function renderFavourites(favourites, dispatch, setPodcast) {
   return render(
     <PodcastContext.Provider value={{setPodcast}}>
       <FavouriteContext.Provider value={{ favourites, dispatch }}>
@@ -40,7 +40,7 @@ test("renders component correctly with no liked episodes", () => {
       "isLiked": false
     }],isLoading: false}
 
-  renderUserGreeter(favourites, mockDispatchFunction, mockSetPodcastFunction );
+    renderFavourites(favourites, mockDispatchFunction, mockSetPodcastFunction );
 
 
   const textElement = screen.getByText(/your favourites/i);
@@ -58,7 +58,7 @@ test("renders loading component", () => {
 
   let favourites = {
     favourites: [],isLoading: true}
-  renderUserGreeter(favourites, mockDispatchFunction, mockSetPodcastFunction );
+    renderFavourites(favourites, mockDispatchFunction, mockSetPodcastFunction );
 
   const textElement = screen.getByText(/loading/i);
   expect(textElement).toBeInTheDocument();
@@ -73,7 +73,7 @@ test("renders component correctly with one liked episodes", () => {
       "isLiked": true
     }],isLoading: false}
 
-  renderUserGreeter(favourites, mockDispatchFunction, mockSetPodcastFunction );
+    renderFavourites(favourites, mockDispatchFunction, mockSetPodcastFunction );
 
   const textElement2 = screen.getByText(/The Kid Mero Talks 'What It Means To Be Latino/);
   expect(textElement2).toBeInTheDocument();
@@ -93,7 +93,7 @@ test("delete works", () => {
       "isLiked": true
     }],isLoading: false}
 
-  renderUserGreeter(favourites, mockDispatchFunction, mockSetPodcastFunction );
+    renderFavourites(favourites, mockDispatchFunction, mockSetPodcastFunction );
 
   const textElement2 = screen.getAllByText(/Delete/);
   expect(textElement2).toHaveLength(2)
@@ -117,7 +117,7 @@ test("load works", () => {
       "isLiked": true
     }],isLoading: false}
 
-  renderUserGreeter(favourites, mockDispatchFunction, mockSetPodcastFunction );
+    renderFavourites(favourites, mockDispatchFunction, mockSetPodcastFunction );
 
   const textElement = screen.getAllByText(/Load/);
   expect(textElement).toHaveLength(2)
