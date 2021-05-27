@@ -3,7 +3,7 @@
 - Used a BE with `json-server` to persist data so can utilize keeping a favourites list
 - Used `cors-anywhere` to solve cors issue with podcast feed
 - Updated to use TypeScript
--
+- Add in test using jest, react testing library and moxios
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
